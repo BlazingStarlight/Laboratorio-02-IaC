@@ -31,3 +31,6 @@ d
 
 ## CRÉDITOS
 Moreno Rodríguez Diego Saúl - 000245429
+
+## CAPTURAS
+<img width="999" height="546" alt="image" src="https://github.com/user-attachments/assets/4a678dda-ed75-4793-bf73-aa5d1a9db4cc" />
