@@ -6,15 +6,21 @@ services:
     build: ./api
     ports:
       - 3000:3000
+    environment:
+      - MESSAGE=HOLA DESDE API 1
 
   app2:
     container_name: API_2
     build: ./api
     ports:
       - 3001:3000
+    environment:
+      - MESSAGE=HOLA DESDE API 2
 
   app3:
     container_name: API_3
     build: ./api
     ports:
       - 3002:3000
+    environment:
+      - MESSAGE=HOLA DESDE API 3
