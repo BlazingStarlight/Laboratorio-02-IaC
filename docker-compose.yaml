@@ -24,3 +24,14 @@ services:
       - 3002:3000
     environment:
       - MESSAGE=HOLA DESDE API 3
+
+  db:
+    container_name: postgreSQL
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: mysecretpassword
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      
+volumes:
+  postgres_data:
