@@ -3,18 +3,18 @@ version: '3'
 services:
   app1:
     container_name: API_1
-    image: nmatsui/gello-world-api
+    image: nmatsui/hello-world-api
     ports:
       - 3000:3000
 
   app2:
     container_name: API_2
-    image: nmatsui/gello-world-api
+    image: nmatsui/hello-world-api
     ports:
       - 3001:3000
 
   app3:
     container_name: API_3
-    image: nmatsui/gello-world-api
+    image: nmatsui/hello-world-api
     ports:
       - 3002:3000
