@@ -2,6 +2,10 @@
 Despliegue con Docker Compose y desarrollo de la actividad propuesta.
 
 ## COMANDOS:
+
+```bash
+git commit -m "doc:"
+```
 ```bash
 docker compose up -d
 ```
