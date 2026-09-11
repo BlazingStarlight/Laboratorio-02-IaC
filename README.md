@@ -1,5 +1,6 @@
 ## LABORATORIO 02
 Despliegue con Docker Compose y desarrollo de la actividad propuesta.
+Desplegué los tres contenedores para ejecutar la API "nmatsui/hello-world-api", cada uno de estos emiten un mensaje propio saludando desde su respectiva API. 
 
 ## COMANDOS:
 
@@ -19,15 +20,6 @@ some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
 ```bash
 docker exec -ti e4c02a838de6 /bin/sh
 ```
-## API 1
-ID: e4c02a838de6
-Nombre: jolly_lewin
-
-## API 2
-ID: 9bac68665b97
-Nombre: focused_leavitt
-d
-## CONFIGURACIÓN POR ENTORNO
 
 ## CRÉDITOS
 Moreno Rodríguez Diego Saúl - 000245429
